@@ -3,7 +3,7 @@ import requests
 import re
 import phonenumbers
 
-st.title('Basketball Camp Regitser From')
+st.title('Basketball Camp Regitser Form')
 
 def check_char_length(char: str):
     if len(char) < 2 or len(char) > 10:
