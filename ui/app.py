@@ -62,7 +62,7 @@ if submit_button:
         "phone_number": phone_number
     }
 
-    response = requests.post("http://localhost:3000/register", json=payload)
+    response = requests.post("https://simple-streamlit-app.onrender.com/register", json=payload)
     if response.status_code == 201:
         st.success("Registration successful")
     else:
